@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <>
-      <h1>Contact Page</h1>
-    </>
+    <div style={{marginTop: '10px'}}>
+      <p>Contact Page</p>
+    </div>
   )
 }
 

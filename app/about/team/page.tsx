@@ -1,8 +1,8 @@
 const Team = () => {
   return (
-    <>
-      <h1>Team Page </h1>
-    </>
+    <div  style={{marginTop: '10px'}}>
+      <p>Team Page </p>
+    </div>
   )
 }
 

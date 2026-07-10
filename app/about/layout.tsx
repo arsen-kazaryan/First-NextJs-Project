@@ -9,7 +9,8 @@ export default function AboutLayout({
     <div>
       <h1>About us</h1>
       <ul>
-        <li><Link href='/about/contact'>Contacts</Link></li>
+        <li><Link href='/about/contact'>Contacts</Link></li> 
+        {/* Пути пишутся целиком */}
         <li><Link href='/about/team'>Team</Link></li>
       </ul>
       {children}

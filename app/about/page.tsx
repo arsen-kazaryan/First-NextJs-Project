@@ -1,8 +1,15 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: 'About Page'
+}
+
+
 const About = () => {
   return (
-    <>
-      <h1>Select Subitem</h1>
-    </>
+    <div style={{marginTop: '10px'}}>
+      <p>Select Subitem</p>
+    </div>
   )
 }
 
