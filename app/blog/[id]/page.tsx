@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import Link from "next/link";
 
 type Props = {
   params: Promise<{
@@ -30,6 +30,8 @@ const post = await getData(id)
         <h1>Post Page:{id}</h1>
         <h3>Title: {post.title}</h3>
         <p>Body: {post.body}</p>
+
+        <Link href='/blog'>Back</Link>
     </div>
   )
 }
